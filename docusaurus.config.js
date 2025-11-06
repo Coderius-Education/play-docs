@@ -6,7 +6,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const lightCodeTheme = prismThemes.github;
 const darkCodeTheme = prismThemes.dracula;
 
-const organizationName = "coderius";
+const organizationName = "Coderius-Education";
 const projectName = "play-docs";
 
 /** @type {import('@docusaurus/types').Config} */
