@@ -13,7 +13,7 @@ const projectName = "play-docs";
 const config = {
 	title: "coderius-play",
 	tagline: "Leer nog beter Python door het maken van games",
-	url: `https://${organizationName}.github.io`,
+	url: `https://play.coderius.nl`,
 	baseUrl: `/`,
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "throw",
