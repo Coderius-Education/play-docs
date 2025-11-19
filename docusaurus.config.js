@@ -74,6 +74,11 @@ const config = {
 						position: 'left',
 					},
 					{
+						href: '/docs/er_gaat_iets_mis',
+						label: "Er gaat iets mis",
+						position: "left"
+					},
+					{
 						href: '/docs/voor-de-docent/bug',
 						label: 'Bug gevonden?',
 						position: 'right',
