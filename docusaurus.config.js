@@ -18,17 +18,11 @@ const config = {
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "throw",
 	favicon: "img/favicon.ico",
-	// GitHub Pages adds a trailing slash by default that I don't want
 	trailingSlash: false,
 
-	// GitHub pages deployment config.
-	// If you aren't using GitHub pages, you don't need these.
 	organizationName, // Usually your GitHub org/username.
 	projectName, // Usually your repo name.
 
-	// Even if you don't use internalization, you can use this field to set useful
-	// metadata like html lang. For example, if your site is Chinese, you may want
-	// to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: "nl",
 		locales: ["nl"],
@@ -37,13 +31,10 @@ const config = {
 	presets: [
 		[
 			"classic",
-			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+					editUrl: `https://github.com/${organizationName}/${projectName}/tree/master/`,
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -53,12 +44,11 @@ const config = {
 	],
 
 	themeConfig:
-	/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			navbar: {
 				title: " ",
 				logo: {
-					alt: "My Site Logo",
+					alt: "Coderius Play Logo",
 					src: "img/logo.png",
 				},
 				items: [
@@ -79,7 +69,7 @@ const config = {
 						position: 'right',
 					},
 					{
-						href: `https://github.com/Corderius-College-Amersfoort/play/tree/major-refactors`,
+						href: `https://github.com/Coderius-Education/play/tree/master/`,
 						label: "GitHub",
 						position: "right",
 					},
