@@ -2,6 +2,7 @@
    "dependencies": {
       "@docusaurus/core": "^3.9.1",
       "@docusaurus/preset-classic": "^3.9.1",
+      "biome": "^0.3.3",
       "prism-react-renderer": "^2.4.1",
       "react": "^18.3.1",
       "react-dom": "^18.3.1"
@@ -12,6 +13,6 @@
    "scripts": {
       "start": "docusaurus start",
       "build": "docusaurus build",
-    	"test": "biome check ./src"
+      "test": "biome check ./src"
    }
 }
