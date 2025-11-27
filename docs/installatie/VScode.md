@@ -31,8 +31,15 @@ Onderaan Visual Studio Code opent een terminal.
 Dan gaan we nu `coderius-play` installeren. Kopieer het volgende commando en plak het in de terminal:
 
 ```bash
+python -m pip install --upgrade coderius-play
+```
+
+Mocht dit niet werken, probeer dan: 
+
+```bash
 py -m pip install --upgrade coderius-play
 ```
+
 
 ## Testen of het gelukt is
 Kopieer het volgende codefragment naar VS code en voer het uit.
