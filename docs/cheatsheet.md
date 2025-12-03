@@ -118,9 +118,11 @@ Je **kunt** voor **play.new_image** kiezen uit:
 - **x**: x-positie, staat standaard op 0 (het midden). Kleiner dan 0 is naar links, groter dan 0 is naar rechts.
 - **y**: y-positie, staat standaard op 0 (het midden). Kleiner dan 0 is naar beneden, groter dan 0 is naar boven.
 - **size**: de grootte van de afbeelding. De grootte staat standaard op 100. Een hoger getal dan 100 maakt de afbeelding groter en een lager getal maakt de afbeelding kleiner.
-**angle**: de hoek. Je kunt je afbeelding draaien door de **angle** te veranderen. Als je **angle** naar 180 verandert, staat de afbeelding op z'n kop.
 - **transparency**: doorzichtigheid, 0 is onzichtbaar. 100 is volledig zichtbaar.
 
+
+Alleen gebruiken als je physics NIET gebruikt:
+- **angle**: de hoek. Je kunt je afbeelding draaien door de **angle** te veranderen. Als je **angle** naar 180 verandert, staat de afbeelding op z'n kop.
 
 </details>
 
@@ -592,6 +594,10 @@ play.start_program()
 
 <details>
   <summary>Wanneer een vorm stopt met het aanraken van een andere vorm (@VARIABLE.when_stopped_touching)</summary>
+
+:::caution
+**Belangrijk:** Alleen gebruiken als bij allebei de vormen physics aan staat (**start_physics**).
+:::
 
 ```python
 import play
