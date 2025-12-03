@@ -21,7 +21,7 @@ play.start_program()
 
 Wat kan ik aanpassen aan een cirkel?
 Hierbij de lijst van attributen voor een cirkel:
-- **color**: Kleur, staat standaard op 'black'. [Op deze pagina](https://www.pygame.org/docs/ref/color_list.html) zie je welke kleuropties er zijn.
+- **color**: Kleur, staat standaard op 'black'. [Op deze pagina](https://www.pygame.org/docs/ref/color_list.html) zie je welke kleuropties er zijn. Je kunt ook direct een [RGB-waarde opgeven](https://www.w3schools.com/colors/colors_picker.asp) zoals **color=(100,100,100)**.
 - **x**: x-positie, staat standaard op 0 (het midden). Kleiner dan 0 is naar links, groter dan 0 is naar rechts.
 - **y**: y-positie, staat standaard op 0 (het midden). Kleiner dan 0 is naar beneden, groter dan 0 is naar boven.
 - **radius**: straal, staat standaard op 100. Hoe groter de waarde, hoe groter de cirkel.
@@ -53,7 +53,7 @@ play.start_program()
 
 Net zoals bij **play.new_circle** heeft het programma voor ons nu ook al de kleur en grootte bepaald. Je kunt dit zelf natuurlijk aanpassen!
 Dit zijn de attributen voor **play.new_box**:
-- **color**: Kleur, staat standaard op 'black'. [Op deze pagina](https://www.pygame.org/docs/ref/color_list.html) zie je welke kleuropties er zijn.
+- **color**: Kleur, staat standaard op 'black'. [Op deze pagina](https://www.pygame.org/docs/ref/color_list.html) zie je welke kleuropties er zijn. Je kunt ook direct een [RGB-waarde opgeven](https://www.w3schools.com/colors/colors_picker.asp) zoals **color=(100,100,100)**.
 - **x**: x-positie, staat standaard op 0 (het midden). Kleiner dan 0 is naar links, groter dan 0 is naar rechts.
 - **y**: y-positie, staat standaard op 0 (het midden). Kleiner dan 0 is naar beneden, groter dan 0 is naar boven.
 - **width**: de breedte van de rechthoek.
@@ -89,7 +89,7 @@ Je kunt voor **play.new_text** kiezen uit:
 - **y**: y-positie, staat standaard op 0 (het midden). Kleiner dan 0 is naar beneden, groter dan 0 is naar boven.
 - **font**: de font van de tekst. Kun je bijvoorbeeld aanpassen naar 'arial'.
 - **font_size**: de grootte van de font.
-- **color**: de kleur van de tekst.
+- **color**: Kleur, staat standaard op 'black'. [Op deze pagina](https://www.pygame.org/docs/ref/color_list.html) zie je welke kleuropties er zijn. Je kunt ook direct een [RGB-waarde opgeven](https://www.w3schools.com/colors/colors_picker.asp) zoals **color=(100,100,100)**.
 
 Voorbeeld van een blauwe tekst midden bovenaan het scherm met een net iets grote font size:
 ```python
