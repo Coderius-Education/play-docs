@@ -1,8 +1,7 @@
 ---
 sidebar_position: 99
-displayed_sidebar: null
 hide_pagination: true
-hide_title: true
+title: Er gaat iets mis
 ---
 
 ## Op zoek naar het probleem

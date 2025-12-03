@@ -5,6 +5,10 @@ hide_table_of_contents: true
 
 # Visual Studio Code
 
+:::caution
+**Belangrijk:** Gaaf je VS code wilt gebruiken! Het kan wel uitdagend zijn vanwege de integratie van Python, een werkende virtuele omgeving en de terminal configuratie. Mocht je de installatie van VS code niet zo fijn vinden, dan kun je altijd Thonny proberen.
+:::
+
 ## Visual Studio Code installeren
 Ga naar [code.visualstudio.com](https://code.visualstudio.com/) en download het programma voor jouw besturingssysteem.
 Open het nadat je de installatie doorlopen hebt.
