@@ -41,6 +41,30 @@ Deze informatie heb je nodig om de fout op te lossen.
 Zoek nu je fout op in een van de andere tips op deze pagina.
 </details>
 
+<details>
+  <summary>Ben je misschien play.start_program() vergeten of heb je er code onder gezet?</summary>
+
+**play** heeft nodig dat je onderaan het programma **play.start_program** zet.
+Onderstaande codefragment gaat dus helaas niet werken:
+```python
+import play 
+
+play.new_circle()
+```
+
+Ook krijg je bij onderstaande codefragment maar één cirkel te zien:
+```python
+import play 
+
+play.new_circle()
+
+play.start_program()
+
+play.new_circle(x=100)
+```
+
+</details>
+
 ## Het soort probleem begrijpen
 <details>
   <summary>Een `IndentationError`</summary>
