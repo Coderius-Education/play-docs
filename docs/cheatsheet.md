@@ -312,7 +312,7 @@ play.start_program()
 Allereerst een vraag: heb je dit echt nodig of is **.hide()** misschien ook al genoeg?
 Met **.remove()**:
 - verwijder je de vorm
-- je kunt opvragen of de vorm 'leeft' via **cirkel.is_alive()**. Deze is **False** als de vorm verwijderd is.
+- je kunt opvragen of de vorm 'leeft' via **cirkel.alive()**. Deze is **False** als de vorm verwijderd is.
 
 ```py
 import play 
